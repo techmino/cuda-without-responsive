@@ -1,0 +1,450 @@
+/*===================================
+global css
+=====================================*/
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+.btn {
+    color: white;
+    padding: 15px 50px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+/*===================================
+header section
+=====================================*/
+
+header {
+    background: #87509C;
+    min-height: 100vh;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 408;
+    text-transform: uppercase;
+
+    padding: 7px 18px;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: all 0.4s ease;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    background-color: #643a79;
+    color: #fff;
+    box-shadow: 0 0 2px 2px rgb(66, 57, 57);
+    border-radius: 10px;
+}
+
+header h1 {
+    color: #fff;
+}
+
+
+.btn-orange {
+    background-color: #eb7d4b;
+    border-bottom: 4px solid #c86a40;
+    border-radius: 5px;
+
+}
+
+header .row {
+    align-items: center;
+    min-height: 100vh;
+}
+
+/*===================================
+Servies section
+=====================================*/
+.service-section {
+    background: #17C2A4;
+    min-height: 800px;
+}
+
+.heading {
+    margin: 70px 0;
+}
+
+.heading h1 {
+    font-size: 30px;
+    letter-spacing: 4px;
+
+}
+
+.heading span {
+    width: 130px;
+    height: 4px;
+    background: #0000001f;
+    display: block;
+    margin: 15px auto;
+}
+
+
+
+.services h2 {
+    font-size: 22px;
+    margin: 50px 0 16px;
+}
+
+.services p {
+    font-size: 15px;
+}
+
+
+/*===================================
+Team section
+=====================================*/
+.team-section {
+    background: #e7f1f8;
+    min-height: 800px;
+    color: #808a9c;
+}
+
+.heading {
+    margin: 70px 0;
+}
+
+.heading h1 {
+    font-size: 30px;
+    letter-spacing: 4px;
+    color: #27283d;
+
+}
+
+.heading span {
+    width: 130px;
+    height: 4px;
+    background: #0000001f;
+    display: block;
+    margin: 15px auto;
+}
+
+
+.member h2 {
+    font-size: 20px;
+    margin: 50px 0 16px;
+    color: #27283d;
+}
+
+.member p {
+    font-size: 15px;
+}
+
+.member h4 {
+    font-size: 16px;
+    color: #30bae7;
+}
+
+.member ul {
+    justify-content: center;
+}
+
+.member ul li a {
+    width: 30px;
+    height: 30px;
+    background: #bdd1df;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    display: block;
+    line-height: 30px;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+/*===================================
+skill section
+=====================================*/
+.skill-section {
+    background: #fff;
+    min-height: 600px;
+    color: #808a9c;
+}
+
+.heading {
+    margin: 70px 0;
+}
+
+.heading h1 {
+    font-size: 30px;
+    letter-spacing: 4px;
+    color: #27283d;
+
+}
+
+.heading span {
+    width: 130px;
+    height: 4px;
+    background: #0000001f;
+    display: block;
+    margin: 15px auto;
+}
+
+
+.skill h2 {
+    font-size: 20px;
+    margin: 40px 0 16px;
+    color: #27283d;
+    font-weight: 600;
+}
+
+.skill p {
+    font-size: 15px;
+}
+
+.skill h4 {
+    font-size: 16px;
+    color: #30bae7;
+}
+
+.member ul {
+    justify-content: center;
+}
+
+.skill div {
+    position: relative;
+}
+
+.skill div h4 {
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+    margin: 0;
+    font-size: 35px;
+    color: #27283d;
+    font-family: t;
+
+}
+
+/*===================================
+portfolio section
+=====================================*/
+.portfolio-section {
+    background: #ffdd99;
+    min-height: 800px;
+    color: #808a9c;
+}
+
+.heading {
+    margin: 70px 0;
+}
+
+.heading h1 {
+    font-size: 30px;
+    letter-spacing: 4px;
+    color: #27283d;
+
+}
+
+.heading span {
+    width: 130px;
+    height: 4px;
+    background: #0000001f;
+    display: block;
+    margin: 15px auto;
+}
+
+.portfolio-section .heading p {
+    color: #27283d;
+
+}
+
+
+.portfolio h2 {
+    font-size: 16px;
+    margin: 10px 0 30px;
+    color: #27283d;
+    font-weight: 400;
+}
+
+.portfolio p {
+    font-size: 15px;
+}
+
+.portfolio h4 {
+    font-size: 16px;
+    color: #30bae7;
+}
+
+.portfolio-btn button {
+    border: 0;
+    background-color: #EBC985;
+    padding: 15px 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: all 0.4s ease;
+
+}
+
+
+
+.portfolio-btn li {
+    padding: 0 10px 40px;
+}
+
+.portfolio-btn button:hover {
+    background-color: #fff;
+}
+
+/*===================================
+feedback section
+=====================================*/
+.feedback-section {
+    background: #d74680;
+    min-height: 700px;
+
+}
+
+.heading {
+    margin: 70px 0;
+}
+
+.feedback-section .heading h1 {
+    font-size: 30px;
+    letter-spacing: 4px;
+    color: #fff;
+    font-weight: 500;
+
+
+}
+
+.heading span {
+    width: 130px;
+    height: 4px;
+    background: #0000001f;
+    display: block;
+    margin: 15px auto;
+}
+
+.portfolio-section .heading p {
+    color: #27283d;
+
+}
+
+
+
+
+.feedback {
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.feedback img {}
+
+.feedback p {
+    font-style: italic;
+    font-size: 20px;
+}
+
+.feedback h3 {
+    text-transform: uppercase;
+    font-size: 25px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.feedback h6 {
+    color: #FFDD99;
+}
+
+/*===================================
+Contact section
+=====================================*/
+.contact-section {
+    background: #3C5499;
+    min-height: 700px;
+
+}
+
+.heading {
+    margin: 70px 0;
+    ;
+}
+
+.contact-section .heading h1 {
+    font-size: 30px;
+    letter-spacing: 4px;
+    color: #fff;
+    font-weight: 500;
+
+
+}
+
+.heading span {
+    width: 130px;
+    height: 4px;
+    background: #0000001f;
+    display: block;
+    margin: 15px auto;
+}
+
+.btn-sky-blue {
+    background-color: #30BAE7;
+    border-bottom: 4px solid #299EC5;
+    border-radius: 5px;
+
+}
+
+.form-control {
+    padding: 20px 15px;
+    font-size: 20px;
+    background-color: #273A71;
+    border: 1px solid #273A71;
+}
+
+.form-control:focus {
+    color: #ffffff;
+    background-color: #fff0;
+    border-color: #273A71;
+    outline: 0;
+    box-shadow: 0 0 0 0 rgba(0, 123, 255, 0);
+
+}
+
+::placeholder {
+    color: #fff !important;
+}
+
+
+/*===================================
+footer section
+=====================================*/
+
+
+footer {
+    background: #344b8E;
+    padding: 20px 0;
+
+}
+
+footer ul {}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul li a {
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    text-transform: capitalize;
+    border-radius: 4px;
+    padding: 5px 20px;
+    font-size: 25px;
+
+    letter-spacing: 1px;
+
+}
